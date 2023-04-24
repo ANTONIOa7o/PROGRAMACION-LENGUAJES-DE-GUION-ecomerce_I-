@@ -14,3 +14,13 @@ swal('los valores seleccionados han sido: ' + dato1 + ' &' + dato2 + '\n' +
     'la resta es: ' + resta + '\n' +
     'la division es: ' + division
 );
+document.write(
+
+    '<h2>los valores seleccionados han sido:</h2> ' + '<p>' + dato1 + ' & ' + dato2 + '<br>' + '<hr>'+
+    '<h2>la suma es: ' + suma + '<br>' +
+    '<h2>la division es: ' + division + '<br>' +
+    '<h2>la multiplicacion es: ' + multiplicacion +'<br>' +
+    '<h2>la resta es: ' + resta + '<br>' +
+    '<h2>la division es: ' + division
+);
+
