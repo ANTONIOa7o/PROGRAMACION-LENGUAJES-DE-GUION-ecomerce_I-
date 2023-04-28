@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores de Asignacion</title>
+</head>
+<body>
+<!--
+                        ========================
+                        OPERADORES de Asignacion
+                        ========================
+                Operan en la propia variable de su valor
+        
+            Operacion/Accion                    Operador
+
+       -> Asignacion directa                        =
+       -> Adicion                                   +=
+        (ejemplo: var numero +=8, numero =8 numero+=3 numero=11 )
+       -> Sustraccion                               -=
+       ->Multiplicacion                             *=
+       ->Division                                   /=
+       ->modulo(valor del resto)                    %=
+       
+                                                DIVIDENDO/Divisor
+                                                [resto]     cociente
+    El resto de un divison el nº finalizado que nos queda como resultada de dicha division,
+    el resto tendrá dos atributos exacto  = 0 , o no exato(distion de 0) !=0
+-->
+
+<script>
+    var numero = 5;
+    //Asignacion Compuesta
+    numero=numero+3;
+    numero+=3//11
+
+    numero=numero*6;
+    numero*=6;//396
+
+    numero=numero/9;
+    numero/=9;//4.88
+    console.log(numero)
+
+    numero=numero-2//2.88
+    numero-=2//
+    console.log(numero)
+    /*
+    Porqsué sale 0.88
+    */
+</script>
+</body>
+</html>

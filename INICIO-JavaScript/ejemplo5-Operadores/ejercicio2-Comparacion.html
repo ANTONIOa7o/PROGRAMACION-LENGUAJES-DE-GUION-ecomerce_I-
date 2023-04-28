@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Aritmeticos, Lógicos y Relacionales</title>
+</head>
+<body>
+    <!--
+                            ======================
+                            1. OPERADORES logicos
+                            ======================
+            Operacion lógica              Simbolo                 Descripcion
+
+                y                           &&              Nexo de distintintas operaciones, que plantea:
+                                                            Todo será true(verdad), si todas las sentencias son verdad
+                                                            Será false(false), si alguna de sus sentencias no son verdad
+            
+                ò                           ||              Nexo de distintintas operaciones, que plantea:
+                                                            Todo sera true(Verdad), no solo si todas las sentcias son verdaderas
+                                                            tambien será true, si alguna de estas estencias lo son. 
+                                                            Dicha estructura será falsa cuando todas sus sentencias lo sean
+
+                no                          !               Definirá su contrario var x =!true
+                                                        
+                                                        
+                                                        
+                            ==========================
+                            2. OPERADORES relacionales
+                            ==========================
+
+            Operación                       Símbolo                     Descripcion
+
+            igual a                             ==                  Establece igualdad
+
+            distinto de                         !=                  Establece lo contrario a la igualdad
+
+            Mayor,Mayor e igual                 >,>=                5>2, 5>=3, comparaciones de cantidad
+
+            Menor,Menor e igual                 <,<=                2<5, comparacion de cantidad
+
+            Igualdad estricta                   ===                 igual en valor y en naturaleza
+
+            contrario a estrictas               !==                 contrario al valor y su naturaleza
+
+                            =========================
+                            3. OPERADORES aritmeticos
+                            =========================
+            
+            Operacion                           Simbolo
+
+            Suma,resta,                         +,-                 
+            division y multiplicacion           /,*
+
+            cambio signo                        -[()]
+
+            incremento                          ++
+
+            decremento                          --
+
+            resto division(módulo)               %
+
+                                                        -->
+
+
+            <script>
+
+                var numero = 7
+                console.log('Igualdad: ' + (numero == 7));
+                console.log('Igualdad: ' + (numero == '7'));
+                console.log('Mayor: ' + (numero > 8));
+                console.log('Menor e igual: ' + (numero <= 7));
+                //igualdad estricta
+                console.log('Igualdad estricta: ' + (numero === '7'));
+                console.log('Desigualdad estricta: ' + (numero !=='7') )
+
+                //logicos
+                var  nombre1 = 'Juan Perez';
+                var nombre2 = 'Maria Perez';
+                //logicos + relacionales
+                console.log('Condicion y: ' + (nombre1 == 'Juan Perez')&&(nombre2=='Mari Perez'));
+                console.log('Condicion ó: ' + (nombre1 == 'Juan Perez')||(nombre2='maria perez'));
+                
+                console.log('Negacion: ' + (nombre2 !=='maria perez'));
+                console.log('Negacion: ' + !(nombre2 =='maria perez'));
+
+            </script>
+</body>
+</html>
