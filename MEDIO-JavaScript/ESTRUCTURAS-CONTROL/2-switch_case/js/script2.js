@@ -14,8 +14,10 @@ function presiona(x, y) {
             'Libre por Descanso'
             break;
         case 3:
+            let precio =9
+            let total = precio*2
             respuesta.innerHTML = 
-            'Cocido Montañes'
+            'Cocido Montañes'+ '<br>'+ ' precio menu = 9€' + '<br>' + total;
             break;
         case 4:
             respuesta.innerHTML = 
